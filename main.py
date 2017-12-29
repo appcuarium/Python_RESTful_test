@@ -64,7 +64,7 @@ def update_user(user_id):
     return jsonify({})
 
 
-@app.route('/todo/api/v1.0/users/<int:user_id>', methods=['DELETE'])
+@app.route('/prt/api/v1.0/users/<int:user_id>', methods=['DELETE'])
 @auth.login_required
 def delete_user(user_id):
     """
@@ -73,7 +73,7 @@ def delete_user(user_id):
     """
     return jsonify({})
 
-@app.route('/todo/api/v1.0/distances', methods=['GET'])
+@app.route('/prt/api/v1.0/distances', methods=['GET'])
 @auth.login_required
 def get_distances():
     """
