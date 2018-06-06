@@ -111,7 +111,7 @@ makes our jaw drop, but only if you have extra time, this is not mandatory
 
 * About the distances endpoint, please explain how would you scale this to hundreds and thousands of petitions per second, 
 considering this is a CPU intensive endpoint. 
-* How would you apporach this if latitude and longitude of user would be changing very frequently as well?  
+* How would you approach this if latitude and longitude of user would be changing very frequently as well?
 
 
 **Deliverable**
