@@ -16,15 +16,6 @@ test_data = [
 ]
 
 
-def create_points(n):
-    return pd.DataFrame({'Latitude': np.random.uniform(0.0, 90.0, n),
-                         'Longitude': np.random.uniform(0.0, 180.0, n)})
-
-
-track_points = create_points(25000)
-test_points = create_points(400)
-
-
 class TestFunctions(TestCase):
     def test_min_distance(self):
         for item in test_data:
